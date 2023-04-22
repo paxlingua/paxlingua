@@ -1,0 +1,53 @@
+paxlingua_phrases = {
+    "Can you repeat that?": {
+        "Paxlingua": "Povis ripetin akel?",
+        "Shorthand Paxlingua": "PvRiAk",
+        "English": "Can you repeat that?",
+        "Semantic Field": "Communication",
+        "Phrase Breakdown": [
+            {
+                "Origins": ["Latin", "English", "Mandarin"],
+                "Word": "Povis",
+                "Translation": "Can",
+                "Synonyms": ["able"],
+                "Antonyms": ["unable"],
+                "Etymology": "Combination of Latin 'posse' and English 'can', with some influence from Mandarin 'néng' (能).",
+                "LUS Estimate": 0.8721,
+                "Pronunciation": "/ˈpoʊ.vɪs/",
+                "Shorthand Paxlingua": "Pv",
+                "Usage Examples": ["Povis skribi?", "Povis vidin?"],
+            },
+            {
+                "Origins": ["Latin", "Swedish", "Indonesian"],
+                "Word": "ripetin",
+                "Translation": "repeat",
+                "Synonyms": ["say again"],
+                "Antonyms": ["ignore", "omit"],
+                "Etymology": "Derived from Latin 'repetere', with some influence from Swedish 'upprepa' and Indonesian 'ulangi'.",
+                "LUS Estimate": 0.8912,
+                "Pronunciation": "/riˈpe.tɪn/",
+                "Shorthand Paxlingua": "Ri",
+                "Usage Examples": ["ripetin vortin", "ripetin akel vorto"],
+            },
+            {
+                "Origins": ["English", "Turkish", "Swahili"],
+                "Word": "akel",
+                "Translation": "that",
+                "Synonyms": ["those"],
+                "Antonyms": ["this", "these"],
+                "Etymology": "Combination of English 'that', Turkish 'şu', and Swahili 'hicho'.",
+                "LUS Estimate": 0.8645,
+                "Pronunciation": "/ˈa.kɛl/",
+                "Shorthand Paxlingua": "Ak",
+                "Usage Examples": ["vidin akel?", "doni akel libro"],
+            },
+        ],
+        "Grammar Rules": {
+            "Word Order": "SVO",
+            "Tense": "present",
+            "Negation": "ne- prefix",
+            "Question": "inversion of subject and verb",
+        },
+    },
+}
+

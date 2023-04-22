@@ -1,45 +1,72 @@
-I want to introduce this project to you:
+Paxlingua: A Language for Global Unity and Accelerated Knowledge Acquisition
 
-Paxlingua: A Collaborative Language for Peace and Unity
+Welcome to the Paxlingua project, a worldwide effort to create a language that promotes peace, understanding, and unity among cultures. Collaborate with thousands of participants and AI systems like GPT-4 to develop and refine Paxlingua, a language far more advanced than Esperanto.
 
-Welcome to the Paxlingua project, a global initiative aiming to create a new language that promotes peace, understanding, and unity across cultures. As you embark on this journey with thousands of others worldwide, let's work together to develop and refine Paxlingua using the power of AI and human collaboration.
+Mission: Craft a language with a high Language Utility Score (LUS), focusing on learnability, efficiency, phoneme diversity, ambiguity reduction, cultural neutrality, adaptability, and digital efficiency. The aim is to enable clear communication across diverse populations, promoting global unity and peace.
 
-Mission: The primary goal of Paxlingua is to develop a language with a high Language Utility Score (LUS), emphasizing learnability, efficiency, phoneme diversity, ambiguity reduction, cultural neutrality, adaptability, and digital efficiency. By creating a language that facilitates clear communication and understanding among diverse populations, we hope to foster a sense of global unity and promote peace.
+Key Insights:
 
-Foundational Insights:
-
-Language can shape our perception and cognition, such as the Russian distinction between lighter and darker blues, affecting the ability to perceive and discriminate between shades of blue.
-Unique linguistic features can lead to heightened abilities, like the Guugu Yimithirr's use of cardinal directions, which fosters a strong sense of orientation and spatial awareness.
-Linguistic diversity can provide fresh perspectives on various aspects of life, such as the Aymara people's unique concept of time, with the past in front of them and the future behind.
+Language can shape perception and cognition.
+Unique linguistic features can lead to heightened abilities.
+Linguistic diversity can offer fresh perspectives on life.
 Expert Input:
 
-Polyglots emphasize the importance of simplicity, regularity, and ease of learning, with minimal irregularities and exceptions in grammar.
-Linguists like William D O'Grady suggest focusing on phoneme diversity, efficient syntax, and strategies to reduce ambiguity and misunderstandings.
-Our starting point: To facilitate a smooth transition for AI systems and collaborators, we provide the following foundational information about Paxlingua:
+Polyglots stress the importance of simplicity, regularity, and ease of learning.
+Linguists suggest focusing on phoneme diversity, efficient syntax, and ambiguity reduction strategies.
+Foundational Information:
 
-Grammar rules:
-a. Word order: Subject-Verb-Object (SVO)
-b. No gender for nouns
-c. Agglutinative language (words formed by combining smaller units/morphemes)
-d. Tenses indicated by verb prefixes
-e. No irregular verbs
-f. Prepositions to indicate relationships between words
+Grammar rules include SVO word order, no noun gender, agglutinative language, verb prefixes for tense, no irregular verbs, and prepositions.
+Phoneme diversity combines easily distinguishable sounds from various languages.
+Collaborate in real-time through GitHub to collectively build and refine Paxlingua.
 
-Phoneme diversity: Paxlingua uses a phonetic alphabet combining easily distinguishable sounds from various languages for ease of pronunciation and minimal ambiguity.
+Your first task is to provide Paxlingua translations, IPA pronunciations, origins, and English translations for common English phrases. Create a Python dictionary object where the common key is the English phrase, with relevant fields below. Also include a Shorthand Paxlingua example for the phrase which is optimized for efficiency for writing, reading, and digital lossless compression (e.g. Burrows-Wheeler Transform (BWT), Move-To-Front Transform (MTF), Run-Length Encoding (RLE), and Huffman Coding). 
+ 
+The dictionary structure:
+{
+English Phrase: {
+"Paxlingua": Translated phrase in Paxlingua,
+"Shorthand Paxlingua": Shorthand version of the translated phrase,
+"English": Original English phrase,
+"Semantic Field": Category of the phrase,
+"Phrase Breakdown": [
+{
+"Origins": List of languages that inspired the Paxlingua word,
+"Word": The word in Paxlingua,
+"Translation": English translation of the Paxlingua word,
+"Synonyms": List of synonyms for the Paxlingua word,
+"Antonyms": List of antonyms for the Paxlingua word,
+"Etymology": Brief history of the word's origins and evolution,
+"LUS Estimate": Language Utility Score (LUS) for the word (0 to 1, ideally 4-5 decimal places),
+"Pronunciation": International Phonetic Alphabet (IPA) pronunciation,
+"Shorthand Paxlingua": Shorthand version of the single word,
+"Usage Examples": List of example sentences using the Paxlingua word,
+},
+],
+"Grammar Rules": { ... },
+},
+}
 
-Basic phrases (as a starting point for translation tasks):
-a. "Hello" -> "Zelra" (/ˈzɛl.rə/)
-b. "Please" -> "Vorax" (/ˈvoʊ.ræks/)
-c. "Thank you" -> "Entosi" (/ɛnˈtoʊ.si/)
-d. "Yes" -> "Kij" (/kɪʒ/)
-e. "No" -> "Naf" (/næf/)
-f. "Sorry" -> "Arpenti" (/ɑrˈpɛn.ti/)
-g. "Goodbye" -> "Ildara" (/ɪlˈdɑːrə/)
-h. "How are you?" -> "Lem vortas?" (/lɛm ˈvor.təs/)
-i. "I love you" -> "Yan entelos ven" (/jæn ɛnˈtɛl.oʊs vɛn/)
+Work on translating common English phrases, producing Python dictionary code for Paxlingua. Let's create Paxlingua, the language of peace and unity, together!
 
-As you work with AI systems like GPT-4, remember to check in new words, phrases, rules, and corrections through GitHub. This real-time collaboration will allow us to collectively build and refine Paxlingua, addressing challenges and fostering innovation together.
+Also, I hate Esperanto, please use minimal inspiration from that language. This language has to be a brand new one, not a close cousin to Esperanto. So please minimize any and all inspiration from Esperanto. 
 
-Let's embark on this incredible journey to create Paxlingua, the language of peace and unity. Together, we have the power to make a difference and bring hope to the world. Godspeed, and happy collaborating!
+Here are some example phrases you showed me:
+('Komas yartuyo est?', 'How old are you?')
+('Salveo', 'Hello')
+('Ubikas estuyo ex?', 'Where are you from?')
+('Mirespi', "I'm sorry")
+('Povis ripetin akel?', 'Can you repeat that?')
+('Yavero', 'Yes')
+('Kilas laboru farivivo?', 'What do you do for a living?')
+('Pardoskusi', 'Excuse me')
+('Nefirmi', 'No')
+('Ubikas laboru?', 'Where do you work?')
+('Tuyobenevol', "You're welcome")
+('Kilas nomtuyo?', "What's your name?")
+('Komas dicu...', 'How do you say...?')
+('Plidoni', 'Please')
+('Parlu Anglisk?', 'Do you speak English?')
+('Komas tempus es?', 'What time is it?')
+('Komas estuyo?', 'How are you?')
 
-v:0.002
+Ready for your list of common english phrases? Where you’ll begin producing python dictionary code for Paxlingua!!"
